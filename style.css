@@ -1,0 +1,128 @@
+/* Built using Open Props */
+
+/* Imports */
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+/* Page Styles */
+body {
+    margin: var(--size-3);
+    min-block-size: 0;
+    tab-interval: 36.0pt;
+    word-wrap: break-word;
+}
+
+header {
+    padding-left: var(--size-3);
+    padding-bottom: var(--size-3);
+    width: 100%;
+    position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 98;
+    border-bottom: var(--size-2) solid var(--lime-7);
+}
+
+main {
+    margin: var(--size-3);
+    padding-bottom: var(--size-3);
+    padding-top: var(--size-3);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding-bottom: var(--size-3);
+}
+
+/* Text Styles */
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: var(--size-fluid-4);
+}
+
+h2 {
+    font-size: var(--size-fluid-3);
+}
+
+h3 {
+    font-size: var(--size-fluid-2);
+}
+
+h4 {
+    font-size: var(--size-fluid-1);
+}
+
+/* JS Styles */
+#B1,
+#B2,
+#B3,
+#D1,
+#D2,
+#D4,
+#D5,
+#D6,
+#D7,
+#D8,
+#E1,
+#E2,
+#F1 {
+    display: none;
+}
+
+aside {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-block-size: 100%;
+}
+
+.B1,
+.B2,
+.B3,
+.D1,
+.D2,
+.D4,
+.D5,
+.D6,
+.D7,
+.D8,
+.E1,
+.E2,
+.F1 {
+    position: fixed;
+    z-index: 99;
+    width: max-content;
+    background-color: var(--lime-7);
+    padding: 0.4rem;
+}
+
+object {
+    width: 95vw;
+    height: 90vh;
+}
+
+aside nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    padding-bottom: 0;
+}
+
+aside nav a:any-link {
+    color: var(--gray-12);
+    background-color: var(--gray-1);
+    text-decoration: none;
+}
+
+aside nav a:any-link:hover {
+    background-color: var(--gray-8);
+    color: var(--gray-1);
+    transition: ease 0.2s;
+}
