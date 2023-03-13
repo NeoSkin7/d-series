@@ -7,11 +7,13 @@
 /* Page Styles */
 body {
     margin: var(--size-3);
+    margin-top: 0;
     min-block-size: 0;
     word-wrap: break-word;
 }
 
 header {
+    margin-top: var(--size-3);
     padding-left: var(--size-3);
     padding-bottom: var(--size-3);
     width: 100%;
