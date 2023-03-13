@@ -96,6 +96,7 @@ aside {
     width: max-content;
     background-color: var(--lime-7);
     padding: 0.4rem;
+    display: none;
 }
 
 object {
