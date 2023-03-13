@@ -13,10 +13,9 @@ body {
 }
 
 header {
-    margin-top: var(--size-3);
+    padding-top: var(--size-3);
     padding-left: var(--size-3);
     padding-bottom: var(--size-3);
-    width: 100%;
     position: fixed;
     position: sticky;
     top: 0;
